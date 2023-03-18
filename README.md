@@ -6,7 +6,11 @@ Parameters may be modified to filter out selected data
 
 ### Libraries used
 Regular Expression
+
 pdfminer.six
+
 Pillow
+
 PyMuPDF
+
 tabula-py
