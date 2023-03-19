@@ -11,6 +11,6 @@ matches = pattern.findall(text)
 print(matches)
 
 #save extracted text into .txt file
-f = open("text.txt", "w")
+f = open("text.txt", "w", encoding='utf-8')
 f.write(text)
 f.close()
