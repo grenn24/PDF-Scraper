@@ -1,4 +1,5 @@
 # PDF Scraper
+text.py image.py table.py
 
 ## Description
 Can be used to extract text, images and tables from a pdf file
