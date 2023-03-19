@@ -1,0 +1,6 @@
+                               Unnamed: 0   Japan   India
+0              Nominal GDP (trillion USD)   4.939   2.264
+1                   Unemployment rate (%)   3.100   3.280
+2                         Life expectancy  83.800  68.300
+3  CO2 emissions (metric tons per capita)   9.756   1.591
+4                        Gini Coefficient   0.330   0.339
