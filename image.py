@@ -9,7 +9,7 @@ for i in range(len(pdf)):    #iterate over each page in pdf
     images = page.get_images()
     for image in images:     #iterate over each extracted image
         base_img = pdf.extract_image(image[0])
-        print(base_img)     #display image metadata
+        print(base_img)     #extract image metadata
         image_data = base_img["image"]     #extract image data
         img = PIL.Image.open(io.BytesIO(image_data))     #process image data
         ext = base_img["ext"]     #extract image extension
