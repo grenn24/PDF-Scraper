@@ -9,3 +9,8 @@ print(text)
 pattern = re.compile(r"[a-zA-Z]+,{1}\s{1}")
 matches = pattern.findall(text)
 print(matches)
+
+#save extracted text into .txt file
+f = open("text.txt", "w")
+f.write(text)
+f.close()
